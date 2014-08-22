@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/nameBank"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal"
+        android:text="Nao Bank"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="293dp"
+        android:background="@drawable/nao"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/guiTien"
+            android:layout_width="96dp"
+            android:layout_height="60dp"
+            android:text="Gửi Tiền" />
+
+        <Button
+            android:id="@+id/rutTien"
+            android:layout_width="96dp"
+            android:layout_height="60dp"
+            android:text="Rút Tiền" />
+
+        <Button
+            android:id="@+id/chuyenKhoan"
+            android:layout_width="96dp"
+            android:layout_height="60dp"
+            android:text="Chuyển Khoản" />
+    </LinearLayout>
+
+</LinearLayout>
